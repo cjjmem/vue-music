@@ -1,0 +1,23 @@
+.flex{
+  display: flex;
+  &.direction-row{
+     flex-direction: row
+  }
+  .h-end{
+    justify-content: flex-end
+  }
+  .v-center{
+    justify-content: center
+  }
+  &.center{
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@for $i from 1 through 20{
+  .flex-#{$i} {
+    flex: $i
+  }
+}
+

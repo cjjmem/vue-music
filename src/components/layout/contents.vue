@@ -1,16 +1,25 @@
 <template>
-  <div>
-    <p class="red">content</p>
+  <div id="contents">
+    <Asides></Asides>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+  import Asides from './asides.vue'
   export default {
-    name: 'contents'
+    name: 'contents',
+    components: {
+      Asides
+    }
   }
 </script>
 
-<style>
-
+<style lang="scss" >
+  #contents {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    height: 500px;
+  }
 </style>

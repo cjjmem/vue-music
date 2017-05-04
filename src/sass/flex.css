@@ -70,16 +70,4 @@
 .flex-20 {
   flex: 20; }
 
-body {
-  font-size: 12px;
-  font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
-  background-color: #eff5fa;
-  margin: 0; }
-
-h1 {
-  color: #fff !important; }
-
-.red {
-  color: red; }
-
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=flex.css.map */

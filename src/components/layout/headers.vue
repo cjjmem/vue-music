@@ -9,16 +9,30 @@
       <dd class="msg">
         <span>小小浪子...</span>
       </dd>
+      <dd class="font">
+        <span>
+          <img src="../../assets/prev.png" alt="" width="30" title="后退" >
+        </span>
+        <span>
+          <img src="../../assets/next.png" alt="" width="30" title="前进"  >
+        </span>
+        <span>
+          <img src="../../assets/update.png" alt="" width="21" title="刷新"  >
+        </span>
+      </dd>
       <dd class="search">
         <Search></Search>
       </dd>
       <dd class="control">
-        control
-
-
+        <span>登录</span>
+        <span>
+          <img src="../../assets/clothes.png" alt="" width="30" title="刷新"  >
+        </span>
+        <span>最小化</span>
+        <span>最大化</span>
+        <span>关闭</span>
       </dd>
-      <dd></dd>
-      <dd></dd>
+
     </dl>
 
   </div>
@@ -78,6 +92,9 @@
       font-size: 12px;
       margin-top: -25px;
       color:#fff;
+    }
+    .control{
+      padding-left: 200px;
     }
 
   }
